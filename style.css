@@ -1,4 +1,94 @@
-header {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper  {
     display: grid;
-    grid-template-rows: 80% 50% 50%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    justify-content: center;
+    padding: 10px;
+    padding-top: 3px;
+    background-color: rgb(251, 251, 251);
+    gap: 0px;
+    width: 30cm;
+    height: 9.9cm;
+}
+
+.middle {
+    text-align: center;
+    padding: 10px;
+}
+
+.text {
+    padding: 10px;
+    margin: 0px -10px;
+}
+
+.up {
+    padding-top: 10px;
+}
+
+.one {
+    padding: 52px 20px 51px 20px;
+    text-align: center;
+    margin: 0px -1px;
+}
+
+.two {
+    padding: 10px;
+    margin: 0px -1px;
+    padding-left: 20px;
+}
+
+.empte {
+    padding: 22px;
+}
+
+.column-first {
+    background-color: rgb(30, 38, 151);
+    color: white;
+}
+
+.column-second {
+    background-color: rgb(13, 19, 103);
+    color: white;
+}
+
+.column-third {
+    background-color: rgb(15, 18, 71);
+    color: white;
+}
+
+.column-fourth {
+    background-color: rgb(12, 14, 56);
+    color: white;
+}
+
+.column-fifth {
+    background-color: rgb(8, 10, 41);
+    color: white;
+}
+
+.dollar {
+    font-size: 40px;
+}
+
+button {
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+}
+
+.btn {
+    padding: 7px;
+    margin: 0px -10px;
+}
+
+.dark {
+    background-color: rgb(230, 230, 230);
+}
+
+.blond {
+    background-color: rgb(244, 244, 244);
 }
